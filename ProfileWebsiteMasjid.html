@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Masjid Tablighin Penumping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-profile">
+    <header class="header-profile">
+        <div class="logo">
+            <img src="logo.jpg" alt="Masjid Tablighin Logo">
+        </div>
+        <div class="prayer-times">
+            <div class="time" id="clock">00:00:00</div>
+            <div class="jamsholat">Subuh 04.21    |    Terbit 05.34    |    Dhuhur 11.39    |    Ashar 14.57    |    Maghrib 17.39    |    Isya' 18.47</div>
+        </div>
+        <nav>   
+            <a href="WebsiteMasjid.html">Home</a> <!-- Link kembali ke Home -->
+            <a href="ProfileWebsiteMasjid.html">Profile</a>
+        </nav>
+    </header>
+
+    <!-- Main Profile -->
+    <main class="main-profile">
+        <section class="welcome">
+            <h1 class="h1m1">PROFILE SINGKAT<br>MASJID TABLIGHIN<br>PENUMPING</h1>
+        </section>
+    </main>
+
+    <!-- Main Kedua -->
+    <main class="main-kedua">
+        <h1 class = "span1">Sejarah Singkat</h1>
+        <h1 class="h1m2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, veritatis, animi veniam vero tempora aspernatur magni quasi aliquid officia aut repellendus distinctio totam commodi, at fugit expedita quos enim provident?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam aspernatur esse rerum est quas, obcaecati dolore rem at assumenda aut dolores voluptas harum enim voluptate minus architecto porro? Qui, pariatur.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi atque accusantium error doloribus obcaecati quo, ab fuga omnis, at nihil possimus iure voluptate corporis laboriosam. Aut impedit doloribus magni esse?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facere voluptate quisquam odio recusandae quidem assumenda tempore, sunt dolorum aut? Enim tempora illum quis debitis quas, repellendus architecto ipsam consequuntur.</h1>
+
+        </section><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.064955974239!2d110.80359767411682!3d-7.567897574744174!2m3
+        !1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a15004a0ef4bd%3A0x9bd80b4fdfb017e5!2sMASJID%20TABLIGHIN%20PENUMPING!5e0!3m2!1s
+        id!2sid!4v1728483765374!5m2!1sid!2sid" width="100%" height="530" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+   
+    <!-- JavaScript untuk menampilkan waktu -->
+    <script>
+        function updateClock() {
+    const clockElement = document.getElementById('clock');
+    const now = new Date();
+    
+    // Mendapatkan jam, menit, dan detik
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
+    let seconds = now.getSeconds();
+
+    // Menambahkan 0 di depan angka jika kurang dari 10
+    hours = hours < 10 ? '0' + hours : hours;
+    minutes = minutes < 10 ? '0' + minutes : minutes;
+    seconds = seconds < 10 ? '0' + seconds : seconds;
+
+    // Format waktu yang akan ditampilkan
+    const timeString = `${hours}:${minutes}:${seconds}`;
+    
+    // Memperbarui elemen HTML dengan waktu sekarang
+    clockElement.textContent = timeString;
+}
+
+        // Memperbarui jam setiap detik
+        setInterval(updateClock, 1000);
+
+        // Memanggil fungsi pertama kali agar langsung menampilkan waktu tanpa menunggu interval pertama
+        updateClock();
+    </script>
+</body>
+</html>

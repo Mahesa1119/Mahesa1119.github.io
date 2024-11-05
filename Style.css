@@ -1,0 +1,317 @@
+/* General Styling */
+.body-pertama{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('wa1.jpg');
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.header-pertama{
+    position: fixed; 
+    background-color: #ffffff;
+    width: 100%;
+    height: 5%;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+header .logo img {
+    width: 60px;
+}
+
+header .prayer-times {
+    text-align: center;
+    font-size: 17px;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+header .prayer-times .time {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+header .prayer-times .jamsholat{
+    color: #000000;
+    font-weight: bold;}
+
+header nav a {
+    color: #000000;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav a:hover{
+    color: #26ff09;
+}
+
+.container {
+    text-align: center;
+  }
+
+/* Main Pertama */
+.main-pertama {
+    background-image: url('mstablighin.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 50px;
+    height: 100vh;
+    width: 100%;
+}
+
+.welcome h1 {   
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 240px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.text-background {
+    background-color: #008000;
+    color: white;
+    padding: 5px; 
+    border-radius: 5px; 
+}
+
+header .event p{
+    text-align: center;
+    font-size: 14px
+    padding 10px;
+}
+
+header {
+    text-align: center;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.TentangKami{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 150px 100px 100px 100px;
+    background-color:#ffffff;
+    border-radius: 50px;
+}
+
+.tk{
+    border-radius: 8px;
+    padding: 10px 10px 5px 5px;
+    text-align: center;
+}
+
+.kami-img{
+    max-width: 50%;
+    border-radius: 8px;
+}
+
+.ptk{
+    margin-top: 5px;
+    text-align: center;
+    color: #686868;
+    font-size: 15px;    
+}
+
+.manajemen-img{
+    height: auto;
+    width: auto;
+}
+
+/* Main Kedua */
+.main-kedua{
+    margin-top: 15%;
+    padding: 40px 20px;
+    padding: 20px;
+}
+
+.textmasjid{
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0 500px 0 500px;
+    border-radius: 50px;
+}
+
+.text{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    color: #000000;
+    font-size: 40px;
+    font-style: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.events {
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 50px 100px 100px 100px;
+    padding: 30px;
+    border-radius:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.event {
+    border-radius: 8px;
+    padding: 10px 10px 5px 5px;
+    text-align: center;
+
+}
+
+.event-img {
+    max-width: 50%;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 24px;    
+    color: #26ff09;
+}
+
+p, ul {
+    padding: 10px;
+    text-align: center;
+    color: #777777;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li strong {
+    color: #494949;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #008000;
+    color: white;
+    margin-top: 40px;
+}
+.maps{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Additional for Profile Page */
+.body-profile {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-profile{
+    position: fixed; 
+    background-color: #ffffff;
+    width: 100%;
+    height: 5%;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+header .logo img {
+    width: 60px;
+}
+
+header .prayer-times {
+    text-align: center;
+    font-size: 17px;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+.prayer-times .time {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.prayer-times .jamsholat{
+    color: #000000;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.main-profile {
+    background-image: url('mstablighin.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.profile-info h1m1 {
+    padding-top: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.span1{
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.h1m2{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 50px;  
+    font-family: serif;
+}
